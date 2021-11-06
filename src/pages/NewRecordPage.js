@@ -32,6 +32,8 @@ const NewRecordPage = () => {
     })
       .then((response) => response.json())
       .then((json) => console.log(json));
+
+    alert("record added check console");
   };
 
   return (
